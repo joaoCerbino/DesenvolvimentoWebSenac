@@ -8,7 +8,7 @@
 <body>
     <fieldset>
         <legend>Dados Pessoais</legend>
-     <form action="action_page.php">
+    
         <label for="fname">Primeiro nome:</label><br>
         <input type="text" id="fname" name="fname" placeholder="Ex:João" required><br>
 
@@ -72,6 +72,45 @@
             <label for="dataehr">horas</label>
             <input type="datetime-local" id="dataehr">
         </fieldset>
+        <fieldset>
+            <legend>Selecione Sua Idade</legend>
+            <label for="idade">Idade:</label>
+            <input type="number" id="idade" name="idade" min="18" max="25">
+        </fieldset>
+        <fieldset>
+            <legend>Selecione sua Cor favorita</legend>
+            <label for="cor">Selecione sua Cor favorita</label>
+            <input type="color" name="Cor" id="cor">
+        </fieldset>
+        <fieldset>
+            <legend>Manda foto do Pé KKKKKKKKK</legend>
+            <label for="arquivo"></label>
+            <input type="file" id="arquivo" name="arquivo" >
+        </fieldset>
+        <fieldset>
+            <label for="pais">País</label>
+            <select name="pais" id="pais">
+                <option value="brasil">Brasil</option>
+                <option value="eua">Estados Unidos</option>
+                <option value="japão">Japão</option>
+                <option value="n">Vim do abismo </option>
+            </select>
+            
+        </fieldset>
+        <fieldset>
+            <label for="msm">Mensagem:</label><br>
+            <textarea
+                id="msm"
+                name="msm"
+
+                rows="5"
+                cols="40"
+                placeholder="Digite uma mensagem pros bandeirantes">
+            </textarea>
+            <!-- numero de linhas pertido
+                cols numero de colunas permitido -->
+        </fieldset>
+
     </fieldset>
         
      </form>
