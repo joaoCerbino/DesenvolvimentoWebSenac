@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(163, 157, 157);
+}
+#caimo{
+    color: purple;
+}
+#aiai{
+    color: lawngreen;
+    text-align: center;
+}
+.grande{
+    font-size: xx-large;
+}
+.purple{
+    color: purple;
+}
+h1.pequenino{
+    font-size: xx-small;
+    text-align: center;
+}
+h1.bonito{
+    font-weight: bold;
+    font-size: 90px,xx-large,150%;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    
+
+}
+body{
+    background:url(rock_mais_rock.jpg);
+}
+h1.borda{
+    border-color: fuchsia;
+    border-style: solid;
+    border-radius: 30px;
+}
